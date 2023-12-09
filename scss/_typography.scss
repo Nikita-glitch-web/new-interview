@@ -1,0 +1,13 @@
+@import './variables';
+
+@mixin heading {
+  font-family: 'Nunito', sans-serif;
+  font-size: $heading-font-size-regular;
+  line-height: $heading-font-size-regular;
+}
+
+@mixin paragraph {
+  font-family: 'Nunito', sans-serif;
+  font-size: $paragraph-font-size-regular;
+  line-height: $paragraph-font-size-regular;
+}

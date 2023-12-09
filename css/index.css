@@ -1,0 +1,118 @@
+html {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+button {
+  border: none;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+h1, p {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #F8F8F8;
+  padding: 0;
+  margin: 0;
+}
+
+.global-content {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.logo {
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-left: 60px;
+}
+
+.nav {
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-right: 60px;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.btn {
+  border-radius: 80px;
+  min-width: 100px;
+  min-height: 34px;
+  background-color: #F4E041;
+}
+.btn_primary {
+  background-color: #F4E041;
+  width: 100px;
+}
+.btn_disabled {
+  background-color: #B4B4B4;
+}
+
+.btn:hover {
+  background-color: #FFE302;
+}
+
+.btn {
+  border-radius: 80px;
+  min-width: 100px;
+  min-height: 34px;
+  background-color: #F4E041;
+}
+.btn_primary {
+  background-color: #F4E041;
+  width: 100px;
+}
+.btn_disabled {
+  background-color: #B4B4B4;
+}
+
+.btn:hover {
+  background-color: #FFE302;
+}
+
+.baner {
+  height: 80vh;
+  background-image: url("/images/background-UA.webp");
+  margin: 0 auto;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.baner__title {
+  font-family: "Nunito", sans-serif;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: white;
+  font-weight: 300;
+}
+.baner__text {
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  text-align: center;
+  line-height: 26px;
+  padding-top: 21px;
+  padding-bottom: 32px;
+}
+
+/*# sourceMappingURL=index.css.map */

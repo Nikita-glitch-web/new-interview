@@ -1,0 +1,24 @@
+@import './variables';
+@import './typography';
+@import './theme';
+
+.logo {
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 60px;
+}
+
+.nav {
+    padding-top: 13px;
+    padding-bottom: 13px;
+            padding-right: 60px;
+}
+
+.header-wrapper {
+    display: flex;
+        justify-content: space-between;
+     
+        background: white;
+        max-width: 1170px;
+            margin: 0 auto;
+}

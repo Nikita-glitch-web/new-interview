@@ -1,0 +1,22 @@
+
+@import './variables';
+@import './typography';
+@import './theme';
+
+.btn {
+  border-radius: $btn-border-radius;
+  min-width: 100px;
+  min-height: 34px;
+  background-color: $btn-bg-primary;
+  &_primary {
+    background-color: $btn-bg-primary;
+    width: 100px;
+  }
+  &_disabled {
+    background-color: $btn-bg-primary-disabled;
+  }
+}
+
+.btn:hover {
+  background-color: $hover-color;
+}
