@@ -115,4 +115,156 @@ body {
   padding-bottom: 32px;
 }
 
+.btn {
+  border-radius: 80px;
+  min-width: 100px;
+  min-height: 34px;
+  background-color: #F4E041;
+}
+.btn_primary {
+  background-color: #F4E041;
+  width: 100px;
+}
+.btn_disabled {
+  background-color: #B4B4B4;
+}
+
+.btn:hover {
+  background-color: #FFE302;
+}
+
+html {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+button {
+  border: none;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+h1, p {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #F8F8F8;
+  padding: 0;
+  margin: 0;
+}
+
+.global-content {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.team-members {
+  margin-top: 140px;
+  margin-bottom: 140px;
+}
+
+.team-members__wrapper {
+  background: #F8F8F8;
+}
+@media screen and (max-width: 767px) {
+  .team-members__wrapper {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.team-members__row {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 1024px) {
+  .team-members__row {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .team-members__row {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    margin-right: 0;
+    width: 40%;
+  }
+}
+
+.team-members__row:nth-last-child(1) {
+  padding-top: 29px;
+}
+@media screen and (max-width: 767px) {
+  .team-members__row:nth-last-child(1) {
+    padding-top: 0px;
+  }
+}
+
+.box-middle {
+  margin-left: 29px;
+  margin-right: 29px;
+}
+@media screen and (max-width: 767px) {
+  .box-middle {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+}
+
+.team-member__box {
+  display: flex;
+  width: 33%;
+  height: 254px;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+}
+@media screen and (max-width: 1024px) {
+  .team-member__box {
+    width: 26%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .team-member__box {
+    width: 97%;
+  }
+}
+
+.team-members__title {
+  text-align: center;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  padding-bottom: 50px;
+}
+
+.text {
+  padding-top: 20px;
+  text-align: center;
+  line-height: 26px;
+}
+
+.btn__wrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.btn__team {
+  width: 120px;
+  height: 34px;
+  border-radius: 80px;
+}
+
 /*# sourceMappingURL=index.css.map */
