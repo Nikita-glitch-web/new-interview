@@ -384,7 +384,7 @@ input:nth-child(2) {
   border: 1px solid #D0CFCF;
   border-radius: 4px;
   background: #F8F8F8;
-  padding-left: 4%;
+  padding-left: 16px;
   font-size: 16px;
   line-height: 26px;
 }
