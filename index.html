@@ -100,7 +100,52 @@
             <button class="banner__btn btn__team btn_primary">Show more</button>
         </div>
       </section>
+      <section class="form__wrapper">
+            <h1 class="form__title">Working with POST request</h1>
+            <div class="form__content">
+              <form class="form" action="" method="POST">
+                <div class="form__inputs">
+                  <input type="text" placeholder="Your name" class="input">
+                  <input type="email" placeholder="Email" class="input">
+                  <input id="phone-input" type="number" placeholder="Phone" class="input">
+                  <label class="label" for="input">+38 (XXX) XXX - XX - XX</label>
+                </div>
+                  <div class="container-with-checkbox">
+                    <h1 class="checkbox-title">
+                      Select your position
+                    </h1>
+                    <div class="checkbox-container">
+                      <div class="check-box-wrapper">
+                        <input type="radio" class="custom-radio" name="radio" id="checkbox-front" value="">
+                        <label for="checkbox-front" class="text-for-checkbox">Frontend developer</label>
+                      </div>
+                      <div class="check-box-wrapper">
+                        <input type="radio" class="custom-radio" name="radio" id="checkbox-back">
+                        <label for="checkbox-back" class="text-for-checkbox">Backend developer</label>
+                      </div>
+                      <div class="check-box-wrapper">
+                        <input type="radio" class="custom-radio" name="radio" id="checkbox-designer">
+                        <label for="checkbox-designer" class="text-for-checkbox">Designer</label>
+                      </div>
+                      <div class="check-box-wrapper">
+                        <input type="radio" class="custom-radio" name="radio" id="checkbox-qa">
+                        <label for="checkbox-qa" class="text-for-checkbox">QA</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="input_upload">
+                      <button class="btn-for-upload">Upload</button>
+                      <input type="file" id="image-file" accept="image/x-png, image/jpeg, image/webp" style="display : none" />
+                      <label id="image-label" for="image-file">Upload your photo</label>
+                  </div>
+                  <div class="form_btn_wrapper">
+                    <button class="btn">
+                      Sign up
+                    </button>
+                  </div>
+              </form>
+            </div>
+      </section>
     </main>
-    <footer class="global-footer"></footer>
   </body>
 </html>

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html {
   font-family: "Nunito", sans-serif;
   font-size: 16px;
@@ -265,6 +266,170 @@ body {
   width: 120px;
   height: 34px;
   border-radius: 80px;
+}
+
+.form__title {
+  font-size: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-weight: 400;
+}
+
+.form__content {
+  max-width: 382px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form_inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.input {
+  width: 100%;
+  height: 54px;
+  border: 1px solid #D0CFCF;
+  border-radius: 4px;
+  background: #F8F8F8;
+  padding-left: 4%;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+input:nth-child(1) {
+  margin-top: 50px;
+}
+
+input:nth-child(2) {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.label {
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0em;
+  color: #7E7E7E;
+  padding-left: 16px;
+}
+
+.container-with-checkbox {
+  display: flex;
+  flex-direction: column;
+  padding-top: 25px;
+  padding-right: 55%;
+}
+
+.text-for-checkbox {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+}
+
+.checkbox-container {
+  padding-top: 3%;
+}
+
+.custom-radio {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+/* для элемента label связанного с .custom-radio */
+.custom-radio + label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+
+/* создание в label псевдоэлемента  before со следующими стилями */
+.custom-radio + label::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #adb5bd;
+  border-radius: 50%;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.custom-radio:checked + label::before {
+  background-image: url(/assets/images/checkbox.png);
+  border: 1px solid #00BDD3;
+}
+
+.checkbox-title {
+  font-weight: 400;
+  font-size: 16px;
+  padding-bottom: 14px;
+}
+
+.input-for-image {
+  width: 380px;
+  height: 54px;
+  border: 1px solid #D0CFCF;
+  border-radius: 4px;
+  background: #F8F8F8;
+  padding-left: 4%;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.btn {
+  line-height: 26px;
+  text-align: center;
+  font-weight: 400;
+  color: black;
+  border: none;
+  border-radius: 80px;
+  width: 100px;
+  height: 34px;
+}
+
+.btn-for-upload {
+  width: 83px;
+  height: 54px;
+  border: 1px solid rgba(12, 11, 11, 0.8705882353);
+  font-size: 16px;
+  line-height: 26px;
+  color: black;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.input_upload {
+  width: 100%;
+  height: 54px;
+  border: 1px solid #D0CFCF;
+  border-radius: 4px;
+  background: #F8F8F8;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#image-label {
+  color: #7E7E7E;
+  padding-left: 16px;
+}
+
+.btn:disabled {
+  background: #B4B4B4;
 }
 
 /*# sourceMappingURL=index.css.map */
