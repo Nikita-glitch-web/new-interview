@@ -14,6 +14,11 @@
         display: flex;
         justify-content: center;
     }
+
+    @include mobile-xs-down {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 // .team-members__row {
@@ -39,12 +44,21 @@
         margin-right: 0;
         width: 40%;
     }
+
+    @include mobile-xs-down {
+        flex-direction: column;
+        width: 100%;
+    }
 }
 
 .team-members__row:nth-last-child(1) {
     padding-top: 29px;
     @include mobile-sm-down {
         padding-top: 0px;
+    }
+
+    @include mobile-xs-down {
+        padding-top: 20px;
     }
 }
 
@@ -73,6 +87,10 @@
 
     @include mobile-sm-down {
         width: 97%;
+    }
+
+    @include mobile-xs-down {
+        width: 100%;
     }
 }
 
